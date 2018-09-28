@@ -1,0 +1,3 @@
+/home/ralf/Projects/cpp_in_24_hrs/h04/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ralf/Projects/cpp_in_24_hrs/h04/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ralf/Projects/cpp_in_24_hrs/h04/cmake-build-debug/CMakeFiles/h04.dir

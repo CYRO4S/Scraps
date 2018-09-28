@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/h05.dir/main.cpp.o CMakeFiles/h05.dir/static_cat.cpp.o CMakeFiles/h05.dir/static_function.cpp.o CMakeFiles/h05.dir/String.cpp.o  -o h05 

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ralf/Projects/cpp_in_24_hrs/h04/inc/linked_list.h
+iostream
+-
+
+/home/ralf/Projects/cpp_in_24_hrs/h04/main.cpp
+iostream
+-
+inc/linked_list.h
+/home/ralf/Projects/cpp_in_24_hrs/h04/inc/linked_list.h
+
