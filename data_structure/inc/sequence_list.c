@@ -122,7 +122,7 @@ const enum Status getPreviousElement(SeqList* list, ElementType element, Element
         return NullList;
     int i = 2;
     ElementType* p = list->element + 1;
-    while (i <= list->length && p != element)
+    while (i <= list->length && *p != element)
     {
         p++;
         i++;
