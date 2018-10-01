@@ -1,5 +1,5 @@
 //
-// Created by me on 2018/9/28.
+// Created by CYRO4S <me@ralf.ren> on 2018/9/28.
 //
 #include <stdbool.h>
 #ifndef DATA_STRUCTURE_SEQUENCE_LIST_H

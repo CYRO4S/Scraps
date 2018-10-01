@@ -1,5 +1,5 @@
 //
-// Created by me on 2018/9/28.
+// Created by CYRO4S <me@ralf.ren> on 2018/9/28.
 //
 #include <malloc.h>
 #include "sequence_list.h"
@@ -141,6 +141,7 @@ const enum Status getNextElement(SeqList* list, ElementType element, ElementType
     if (!list->element)
         return NullList;
     ElementType* p = list->element;
+    int i = 0;
     while (i < list->length && *p != element)
     {
         i++;
