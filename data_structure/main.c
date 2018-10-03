@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <malloc.h>
+#include <stdbool.h>
 #include "inc/queue_array.h"
 
 int main(int argc, char* argv[])
