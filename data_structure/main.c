@@ -1,7 +1,9 @@
 #include <stdio.h>
-#include "inc/sequence_list.h"
+#include <malloc.h>
+#include "inc/stack.h"
 
-int main() {
-    printf("Hello, World!\n");
+int main(int argc, char* argv[])
+{
+
     return 0;
 }
