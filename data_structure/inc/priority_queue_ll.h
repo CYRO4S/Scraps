@@ -6,6 +6,8 @@
 #ifndef DATA_STRUCTURE_PRIORITY_QUEUE_LL_H
 #define DATA_STRUCTURE_PRIORITY_QUEUE_LL_H
 
+#include <stdbool.h>
+
 struct Node {
     int data;
     int priority;
@@ -14,7 +16,8 @@ struct Node {
 
 struct Node* createNode(int data, int priority);
 int peek(struct Node** head);
-int pop(struct Node** head);
-void push(struct Node** head);
+void pop(struct Node** head);
+void push(struct Node** head, int data, int priority);
+bool isEmpty(struct Node** head);
 
 #endif //DATA_STRUCTURE_PRIORITY_QUEUE_LL_H
