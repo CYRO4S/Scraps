@@ -37,7 +37,7 @@ void removeTop(Queue* queue)
 
 int top(Queue* queue)
 {
-
+    return (queue->array[queue->rear]);
 }
 
 bool isFull(Queue* queue)
