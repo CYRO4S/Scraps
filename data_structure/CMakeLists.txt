@@ -3,4 +3,4 @@ project(data_structure C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(data_structure main.c inc/queue_linked_list.c inc/queue_linked_list.h inc/linked_list.c inc/linked_list.h inc/priority_queue.c inc/priority_queue.h inc/priority_queue_ll.c inc/priority_queue_ll.h)
+add_executable(data_structure main.c inc/queue_linked_list.c inc/queue_linked_list.h inc/linked_list.c inc/linked_list.h inc/priority_queue_ll.c inc/priority_queue_ll.h)
