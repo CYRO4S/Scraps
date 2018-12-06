@@ -20,6 +20,7 @@ Status init(SeqStack& stack);
 Status top(SeqStack& stack, elem& element);
 Status push(SeqStack& stack, elem element);
 Status pop(SeqStack& stack, elem& element);
+Status pop(SeqStack& stack);
 Status isEmpty(SeqStack& stack);
 Status isFull(SeqStack& stack);
 Status enlarge(SeqStack& stack);

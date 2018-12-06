@@ -40,6 +40,14 @@ Status pop(SeqStack& stack, elem& element)
     return OK;
 }
 
+Status pop(SeqStack& stack)
+{
+    if (isEmpty(stack)) return EMPTY;
+    stack.top --;
+
+    return OK;
+}
+
 Status isEmpty(SeqStack& stack)
 {
     if (stack.top == stack.base) return TRUE;
