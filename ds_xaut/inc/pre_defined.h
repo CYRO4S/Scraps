@@ -19,5 +19,6 @@
 #define NOT_FOUND 6
 
 typedef int Status;
+typedef int elem;
 
 #endif //DS_XAUT_PRE_DEFINED_H

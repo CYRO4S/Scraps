@@ -10,8 +10,6 @@
 const int CAPACITY_INIT_SIZE = 10;
 const int CAPACITY_INCREMENT = 10;
 
-typedef int elem;
-
 typedef struct {
     elem*  element;
     int    length;

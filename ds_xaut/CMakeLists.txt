@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.12)
+project(ds_xaut)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(ds_xaut main.cpp inc/pre_defined.h inc/sequence.cpp inc/sequence.h inc/linked_list.cpp inc/linked_list.h)
